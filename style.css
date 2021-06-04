@@ -1,0 +1,68 @@
+#logo{
+    height: 92px; /* параметр высоты */
+    width: 272px; /* параметр ширины */
+    margin-top: 200px; /* дает отступ с верху */
+}
+.settings{
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif; /* размеры и шрифт */
+    white-space: nowrap; /* устанавливает, как отображать пробелы между словами, nowrap - дает отображать весь текст одной строкой */
+    -webkit-user-select: none; /* не дает выделять текст или другие элементы */
+    line-height: normal; /*станавливает величину пространства между строками, например в тексте. В блочных элементах оно указывает минимальную высоту блоков строк внутри элемента */
+    cursor: pointer; /* позволяет выбрать тип курсора */ 
+    opacity: 1; /* если 1 то делает жлемент не прозрачным. Но нуже только если есть наложение или нужно управлять прозрачностью */
+    color: #000; /* задает цвет, в данном случаеет тексту "почта" и "картинки" */
+    text-decoration: none; /* управление подчеркиванием, в данном случае нужен none что бы не подчеркивались ссылки */
+    padding: 8px; /* внутренние отступы */
+    display: inline-block; /* генерирует блочный элемент, который обтекается другими элементами веб-страницы */
+    vertical-align: middle;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px
+    color: #000;
+    text-decoration: none;
+}
+.top{
+    margin: 10px; /* просто для отступа */
+}
+.gsearchbar{
+margin-top: 20px;
+margin-bottom: 20px;
+display: flex;
+justify-content: center; /*размещает контенет по середине*/
+flex-direction: row;
+margin: 20px
+}
+#searchform{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    max-width: auto;
+    width: 584px;
+}
+.buttons{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
