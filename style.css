@@ -1,3 +1,12 @@
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
 #logo{
     height: 92px; /* параметр высоты */
     width: 272px; /* параметр ширины */
@@ -44,11 +53,11 @@ margin: 20px
     border: 1px solid #dfe1e5;
     box-shadow: none;
     border-radius: 24px;
-    z-index: 3;
+    z-index: auto;
     height: 44px;
     margin: 0 auto;
-    max-width: auto;
-    width: 584px;
+    width: 545px;
+
 }
 .buttons{
     background-color: #f8f9fa;
@@ -65,4 +74,15 @@ margin: 20px
     text-align: center;
     cursor: pointer;
     user-select: none;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #e8e8e8;
+}
+.footer_text{
+word-spacing: 10px;
+color: #70757a;
+margin: 100px;
 }
